@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import AddCircleOutlineIcon from "./AddCircleOutlineIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/AddCircleOutlineIcon",
   component: AddCircleOutlineIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

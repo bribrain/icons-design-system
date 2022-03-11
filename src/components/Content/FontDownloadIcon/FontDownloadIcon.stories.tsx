@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import FontDownloadIcon from "./FontDownloadIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/FontDownloadIcon",
   component: FontDownloadIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

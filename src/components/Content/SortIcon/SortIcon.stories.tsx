@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import SortIcon from "./SortIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/SortIcon",
   component: SortIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

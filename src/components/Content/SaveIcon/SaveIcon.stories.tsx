@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import SaveIcon from "./SaveIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/SaveIcon",
   component: SaveIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

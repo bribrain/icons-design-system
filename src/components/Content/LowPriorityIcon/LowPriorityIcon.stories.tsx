@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import LowPriorityIcon from "./LowPriorityIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/LowPriorityIcon",
   component: LowPriorityIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

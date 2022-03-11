@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import MoveToInboxIcon from "./MoveToInboxIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/MarkUnreadIcon",
   component: MoveToInboxIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

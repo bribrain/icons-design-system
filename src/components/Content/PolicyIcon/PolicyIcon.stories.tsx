@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import PolicyIcon from "./PolicyIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/PolicyIcon",
   component: PolicyIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

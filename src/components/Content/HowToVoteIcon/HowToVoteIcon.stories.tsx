@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import HowToVoteIcon from "./HowToVoteIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/HowToVoteIcon",
   component: HowToVoteIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

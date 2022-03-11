@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import BatteryAlertIcon from "./BatteryAlertIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/BatteryAlertIcon",
   component: BatteryAlertIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
@@ -15,8 +15,6 @@ export default {
       description: "Size Icon",
     },
     rotate: {
-      //   options: ["regular", "medium", "semibold", "bold"],
-      //   control: { type: "select" },
       defaultValue: 0,
       description: "Rotate Icon",
     },

@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import UndoIcon from "./UndoIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/UndoIcon",
   component: UndoIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

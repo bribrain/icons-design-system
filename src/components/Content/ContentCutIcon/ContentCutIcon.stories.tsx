@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ContentCutIcon from "./ContentCutIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ContentCutIcon",
   component: ContentCutIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

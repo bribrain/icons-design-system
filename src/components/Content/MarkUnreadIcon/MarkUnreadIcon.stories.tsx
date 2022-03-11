@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import MarkUnreadIcon from "./MarkUnreadIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/MarkUnreadIcon",
   component: MarkUnreadIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import NextWeekIcon from "./NextWeekIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/NextWeekIcon",
   component: NextWeekIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

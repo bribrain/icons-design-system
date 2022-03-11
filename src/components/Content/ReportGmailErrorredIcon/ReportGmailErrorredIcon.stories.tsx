@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ReportGmailErrorredIcon from "./ReportGmailErrorredIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ReportGmailErrorredIcon",
   component: ReportGmailErrorredIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

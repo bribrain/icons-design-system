@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import FilterListIcon from "./FilterListIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/FilterListIcon",
   component: FilterListIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

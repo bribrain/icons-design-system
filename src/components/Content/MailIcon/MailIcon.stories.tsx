@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import MailIcon from "./MailIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/MailIcon",
   component: MailIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

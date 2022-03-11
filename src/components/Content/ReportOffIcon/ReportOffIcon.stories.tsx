@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ReportOffIcon from "./ReportOffIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ReportOffIcon",
   component: ReportOffIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
