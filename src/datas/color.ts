@@ -108,4 +108,4 @@ export const colorDatas = {
   "grey-80": "#5c5c5c",
   "grey-90": "#4d4d4d",
   "grey-100": "#333333",
-};
+}
