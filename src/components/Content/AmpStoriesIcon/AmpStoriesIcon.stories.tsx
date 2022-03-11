@@ -30,7 +30,7 @@ export default {
 
 const size: number = 24
 const rotate: number = 0
-const color: Color = "black"
+const color: Color = "grey-100"
 const Template: Story<typeof AmpStoriesIcon> = (args) => <AmpStoriesIcon {...args} />
 
 export const Icon = Template.bind({})

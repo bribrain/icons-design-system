@@ -1,9 +1,9 @@
-import React from "react";
-import { Meta, Story } from "@storybook/react";
-import { Color } from "../../../types/color";
-import { colorDatas } from "../../../datas/color";
+import React from "react"
+import { Meta, Story } from "@storybook/react"
+import { Color } from "../../../types/color"
+import { colorDatas } from "../../../datas/color"
 
-import BrowserNotSupportedIcon from "./BrowserNotSupportedIcon";
+import BrowserNotSupportedIcon from "./BrowserNotSupportedIcon"
 
 export default {
   title: "BRIBrain/BrowserNotSupported",
@@ -26,18 +26,16 @@ export default {
       description: "Color Icon",
     },
   },
-} as Meta<typeof BrowserNotSupportedIcon>;
+} as Meta<typeof BrowserNotSupportedIcon>
 
-const size: number = 24;
-const rotate: number = 0;
-const color: Color = "black";
-const Template: Story<typeof BrowserNotSupportedIcon> = (args) => (
-  <BrowserNotSupportedIcon {...args} />
-);
+const size: number = 24
+const rotate: number = 0
+const color: Color = "grey-100"
+const Template: Story<typeof BrowserNotSupportedIcon> = (args) => <BrowserNotSupportedIcon {...args} />
 
-export const Icon = Template.bind({});
+export const Icon = Template.bind({})
 Icon.args = {
   size: size,
   rotate: rotate,
   color: color,
-};
+}
