@@ -3,11 +3,11 @@ import { Meta, Story } from "@storybook/react"
 import { Color } from "../../../types/color"
 import { colorDatas } from "../../../datas/color"
 
-import BlockIcon from "./BlockIcon"
+import DeleteSweepIcon from "./DeleteSweepIcon"
 
 export default {
   title: "BRIBrain/BrowserNotSupported",
-  component: BlockIcon,
+  component: DeleteSweepIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     size: {
@@ -15,8 +15,6 @@ export default {
       description: "Size Icon",
     },
     rotate: {
-      //   options: ["regular", "medium", "semibold", "bold"],
-      //   control: { type: "select" },
       defaultValue: 0,
       description: "Rotate Icon",
     },
@@ -26,12 +24,12 @@ export default {
       description: "Color Icon",
     },
   },
-} as Meta<typeof BlockIcon>
+} as Meta<typeof DeleteSweepIcon>
 
 const size: number = 24
 const rotate: number = 0
 const color: Color = "black"
-const Template: Story<typeof BlockIcon> = (args) => <BlockIcon {...args} />
+const Template: Story<typeof DeleteSweepIcon> = (args) => <DeleteSweepIcon {...args} />
 
 export const Icon = Template.bind({})
 Icon.args = {
