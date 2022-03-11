@@ -8,7 +8,7 @@ export interface ICalculateIconProps {
   color?: Color
 }
 
-export default function CalculateIcon({ size = 24, rotate = 0, color = "black" }: ICalculateIconProps) {
+export default function CalculateIcon({ size = 24, rotate = 0, color = "grey-100" }: ICalculateIconProps) {
   const colorCode = colorDatas[color]
   return (
     <svg width={size} height={size} transform={`rotate(${rotate})`} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">

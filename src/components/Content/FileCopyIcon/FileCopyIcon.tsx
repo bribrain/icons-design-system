@@ -8,7 +8,7 @@ export interface IFileCopyIconProps {
   color?: Color
 }
 
-export default function FileCopyIcon({ size = 24, rotate = 0, color = "black" }: IFileCopyIconProps) {
+export default function FileCopyIcon({ size = 24, rotate = 0, color = "grey-100" }: IFileCopyIconProps) {
   const colorCode = colorDatas[color]
   return (
     <svg width={size} height={size} transform={`rotate(${rotate})`} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">

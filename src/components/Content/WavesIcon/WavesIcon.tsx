@@ -8,7 +8,7 @@ export interface IWavesIconProps {
   color?: Color
 }
 
-export default function WavesIcon({ size = 24, rotate = 0, color = "black" }: IWavesIconProps) {
+export default function WavesIcon({ size = 24, rotate = 0, color = "grey-100" }: IWavesIconProps) {
   const colorCode = colorDatas[color]
   return (
     <svg width={size} height={size} transform={`rotate(${rotate})`} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
