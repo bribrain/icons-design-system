@@ -2,13 +2,13 @@ import * as React from "react"
 import { Color } from "../../../types/color"
 import { colorDatas } from "../../../datas/color"
 
-export interface IInboxIconProps {
+export interface IInsightsIconProps {
   size?: number
   rotate?: number
   color?: Color
 }
 
-export default function InboxIcon({ size = 24, rotate = 0, color = "black" }: IInboxIconProps) {
+export default function InsightsIcon({ size = 24, rotate = 0, color = "black" }: IInsightsIconProps) {
   const colorCode = colorDatas[color]
   return (
     <svg width={size} height={size} transform={`rotate(${rotate})`} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
