@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import WhereToVoteIcon from "./WhereToVoteIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/WhereToVoteIcon",
   component: WhereToVoteIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

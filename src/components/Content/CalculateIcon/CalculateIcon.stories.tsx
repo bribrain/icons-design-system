@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import CalculateIcon from "./CalculateIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/CalculateIcon",
   component: CalculateIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

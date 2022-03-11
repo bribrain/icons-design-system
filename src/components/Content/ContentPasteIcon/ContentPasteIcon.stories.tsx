@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ContentPasteIcon from "./ContentPasteIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ContentPasteIcon",
   component: ContentPasteIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

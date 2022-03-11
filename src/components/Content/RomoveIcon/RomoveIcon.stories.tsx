@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import RomoveIcon from "./RomoveIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/RomoveIcon",
   component: RomoveIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import DynamicFeedIcon from "./DynamicFeedIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/DynamicFeedIcon",
   component: DynamicFeedIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

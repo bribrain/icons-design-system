@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ForwardIcon from "./ForwardIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ForwardIcon",
   component: ForwardIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import PushPinIcon from "./PushPinIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/PushPinIcon",
   component: PushPinIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

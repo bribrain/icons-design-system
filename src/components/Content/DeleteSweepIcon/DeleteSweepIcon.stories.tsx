@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import DeleteSweepIcon from "./DeleteSweepIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/DeleteSweepIcon",
   component: DeleteSweepIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import GpsOffIcon from "./GpsOffIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/GpsOffIcon",
   component: GpsOffIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

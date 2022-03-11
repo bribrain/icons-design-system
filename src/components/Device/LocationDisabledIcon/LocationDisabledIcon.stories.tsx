@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import LocationDisabledIcon from "./LocationDisabledIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/LocationDisabledIcon",
   component: LocationDisabledIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

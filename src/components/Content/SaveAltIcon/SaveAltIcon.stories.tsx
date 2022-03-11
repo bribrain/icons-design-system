@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import SaveAltIcon from "./SaveAltIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/SaveAltIcon",
   component: SaveAltIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

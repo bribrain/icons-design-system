@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import SendIcon from "./SendIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/SendIcon",
   component: SendIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

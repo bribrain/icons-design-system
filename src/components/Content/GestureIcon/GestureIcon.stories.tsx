@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import GestureIcon from "./GestureIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/GestureIcon",
   component: GestureIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

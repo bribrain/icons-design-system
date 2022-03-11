@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import HowToRegIcon from "./HowToRegIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/HowToRegIcon",
   component: HowToRegIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {

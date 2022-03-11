@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import AddCircleIcon from "./AddCircleIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/AddCircleIcon",
   component: AddCircleIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
@@ -15,8 +15,6 @@ export default {
       description: "Size Icon",
     },
     rotate: {
-      //   options: ["regular", "medium", "semibold", "bold"],
-      //   control: { type: "select" },
       defaultValue: 0,
       description: "Rotate Icon",
     },

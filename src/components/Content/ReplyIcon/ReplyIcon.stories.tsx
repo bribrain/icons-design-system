@@ -6,7 +6,7 @@ import { colorDatas } from "../../../datas/color"
 import ReplyIcon from "./ReplyIcon"
 
 export default {
-  title: "BRIBrain/BrowserNotSupported",
+  title: "BRIBrain/ReplyIcon",
   component: ReplyIcon,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
