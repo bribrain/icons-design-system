@@ -1,0 +1,21 @@
+import * as React from "react"
+import { Color } from "../../../types/color"
+import { colorDatas } from "../../../datas/color"
+
+export interface IDomainDisabledIconProps {
+  size?: number
+  rotate?: number
+  color?: Color
+}
+
+export default function DomainDisabledIcon({ size = 24, rotate = 0, color = "grey-100" }: IDomainDisabledIconProps) {
+  const colorCode = colorDatas[color]
+  return (
+    <svg width={size} height={size} transform={`rotate(${rotate})`} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M0.70998 2.77321C0.31998 3.16321 0.31998 3.79321 0.70998 4.18321L1.99998 5.48321V19.3832C1.99998 20.4832 2.89998 21.3832 3.99998 21.3832H17.9L20.19 23.6732C20.58 24.0632 21.21 24.0632 21.6 23.6732C21.99 23.2832 21.99 22.6532 21.6 22.2632L2.11998 2.77321C1.72998 2.38321 1.09998 2.38321 0.70998 2.77321ZM5.99998 19.3832H3.99998V17.3832H5.99998V19.3832ZM5.99998 15.3832H3.99998V13.3832H5.99998V15.3832ZM3.99998 11.3832V9.38321H5.99998V11.3832H3.99998ZM9.99998 19.3832H7.99998V17.3832H9.99998V19.3832ZM7.99998 15.3832V13.3832H9.99998V15.3832H7.99998ZM12 19.3832V17.3832H13.9L15.9 19.3832H12ZM7.99998 5.38321H9.99998V7.38321H9.54998L12 9.83321V9.38321H19C19.55 9.38321 20 9.83321 20 10.3832V17.8332L22 19.8332V9.38321C22 8.28321 21.1 7.38321 20 7.38321H12V5.38321C12 4.28321 11.1 3.38321 9.99998 3.38321H5.54998L7.99998 5.83321V5.38321ZM16 11.3832H18V13.3832H16V11.3832Z"
+        fill={colorCode}
+      />
+    </svg>
+  )
+}
